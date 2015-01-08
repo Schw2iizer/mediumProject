@@ -1,0 +1,150 @@
+
+/*
+* {
+	outline: 1px solid red;
+}*/
+
+html, body {
+	height: 100%;
+	max-width: 100%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #57AD68;
+}
+
+header {
+	border-bottom: 1px solid;
+}
+
+.logo {
+	height: 25%;
+	width: 100%;
+	text-decoration: none;
+	font-size: 200%;
+}
+
+.published {
+	display: inline-block;
+	margin-left: 33.3%;
+	font-size: 25px;
+}
+
+.search {
+	display: inline-block;
+	float: right;
+}
+
+.login {
+	display: inline-block;
+	margin-right: 5%;
+	font-size: 20px;
+	float: right;
+	border: 1px solid;
+	padding: 3px;
+	border-radius: 25px;
+	color: green;
+
+}
+
+.img {
+	height: auto;
+	width: 100%;
+}
+
+.topHeading {
+	font-size: 60px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.heading {
+	font-size: 40px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.parent {
+	max-width: 600px;
+	text-align: left;
+	margin: 0 auto;
+	line-height: 20px;
+	font-size: 22px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.parentTwo {
+	max-width: 600px;
+	text-align: left;
+	margin: 0 auto;
+	font-style: italic;
+	line-height: 20px;
+	font-size: 22px;
+	border-left: solid;
+	padding: 10px;
+}
+
+.components {
+	position: center;
+	margin-bottom: 10px;
+}
+
+footer {
+	background: white;
+	border-top: 1px solid gray;
+	height: 75px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.joe {
+	float: left;
+	border: 1px solid;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.name {
+	float: left;
+	margin-top: 25px;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 575px) {
+	.published {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 775px) {
+	.login {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.search {
+		display: none;
+	}
+
+}
+
+
+
+
+
